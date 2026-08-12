@@ -33,6 +33,13 @@ class SiteHeader extends HTMLElement {
         </button>
       </header>
       <div class="mobile-menu" style="display: none;">
+        <button class="mobile-close" aria-label="Close menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
         <a href="menu.html" class="${currentPath === 'menu.html' ? 'active' : ''}">Eat</a>
         <a href="the-place.html" class="${currentPath === 'the-place.html' ? 'active' : ''}">Hang</a>
         <a href="play.html" class="${currentPath === 'play.html' ? 'active' : ''}">Play</a>
@@ -44,11 +51,18 @@ class SiteHeader extends HTMLElement {
     `;
 
     const toggle = this.querySelector('.mobile-toggle');
+    const closeBtn = this.querySelector('.mobile-close');
     const menu = this.querySelector('.mobile-menu');
+    
     if (toggle && menu) {
       toggle.addEventListener('click', () => {
-        const isVisible = menu.style.display === 'flex' || menu.style.display === 'block';
-        menu.style.display = isVisible ? 'none' : 'flex';
+        menu.style.display = 'flex';
+      });
+    }
+    
+    if (closeBtn && menu) {
+      closeBtn.addEventListener('click', () => {
+        menu.style.display = 'none';
       });
     }
   }

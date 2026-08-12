@@ -47,8 +47,8 @@ class SiteHeader extends HTMLElement {
     const menu = this.querySelector('.mobile-menu');
     if (toggle && menu) {
       toggle.addEventListener('click', () => {
-        const isVisible = menu.style.display === 'block';
-        menu.style.display = isVisible ? 'none' : 'block';
+        const isVisible = menu.style.display === 'flex' || menu.style.display === 'block';
+        menu.style.display = isVisible ? 'none' : 'flex';
       });
     }
   }

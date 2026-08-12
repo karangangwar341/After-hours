@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | After Hours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="components.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <site-header></site-header>
+
+  <!-- Page Intro -->
+  <section class="page-intro">
+    <p class="eyebrow yellow">THE IMPORTANT STUFF</p>
+    <h1>Things we're<br><em>not sharing.</em></h1>
+  </section>
+
+  <main class="page-body">
+    <div class="menu-receipt" data-testid="menu-receipt">
+      AFTER HOURS<br>
+      <span>MENU / PLEASE PASS THE PARMESAN</span>
+    </div>
+    
+    <div class="filter-row">
+      <button class="active" data-testid="menu-filter-all">All</button>
+      <button data-testid="menu-filter-breakfast">Breakfast</button>
+      <button data-testid="menu-filter-small-plates">Small Plates</button>
+      <button data-testid="menu-filter-mains">Mains</button>
+      <button data-testid="menu-filter-pizza">Pizza</button>
+      <button data-testid="menu-filter-burgers">Burgers</button>
+      <button data-testid="menu-filter-pasta">Pasta</button>
+      <button data-testid="menu-filter-drinks">Drinks</button>
+      <button data-testid="menu-filter-desserts">Desserts</button>
+    </div>
+
+    <div class="full-menu-grid">
+      
+      <!-- Item 1 -->
+      <article class="menu-item" data-category="pizza mains" data-testid="menu-item-0">
+        <div class="menu-item-art menu-photo-0">
+          <span class="menu-photo-label">FROM THE PASS</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Midnight Margherita</h3>
+            <strong>₹349</strong>
+          </div>
+          <p>“Because plans change after 10 PM.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 2 -->
+      <article class="menu-item" data-category="small-plates mains" data-testid="menu-item-1">
+        <div class="menu-item-art menu-photo-1">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>The Group Project</h3>
+            <strong>₹249</strong>
+          </div>
+          <p>“Loaded fries designed to disappear.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 3 -->
+      <article class="menu-item" data-category="burgers small-plates mains" data-testid="menu-item-2">
+        <div class="menu-item-art menu-photo-2">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>I'm Not Hungry</h3>
+            <strong>₹299</strong>
+          </div>
+          <p>“You're hungry. Sliders for the table.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 4 -->
+      <article class="menu-item" data-category="drinks" data-testid="menu-item-3">
+        <div class="menu-item-art menu-photo-3">
+          <span class="menu-photo-label">FROM THE PASS</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>One More Round</h3>
+            <strong>₹199</strong>
+          </div>
+          <p>“Cold brew, vanilla, and very bad timing.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 5 -->
+      <article class="menu-item" data-category="small-plates" data-testid="menu-item-4">
+        <div class="menu-item-art menu-photo-0">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Garlic Bread</h3>
+            <strong>₹179</strong>
+          </div>
+          <p>“The reliable friend.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 6 -->
+      <article class="menu-item" data-category="desserts" data-testid="menu-item-5">
+        <div class="menu-item-art menu-photo-1">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Chocolate Cake</h3>
+            <strong>₹229</strong>
+          </div>
+          <p>“You said you weren’t hungry.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 7 -->
+      <article class="menu-item" data-category="drinks" data-testid="menu-item-6">
+        <div class="menu-item-art menu-photo-2">
+          <span class="menu-photo-label">FROM THE PASS</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>House Lemonade</h3>
+            <strong>₹149</strong>
+          </div>
+          <p>“A little sunshine.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 8 -->
+      <article class="menu-item" data-category="pasta mains" data-testid="menu-item-7">
+        <div class="menu-item-art menu-photo-3">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Pesto Pasta</h3>
+            <strong>₹329</strong>
+          </div>
+          <p>“Green flag energy.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 9 -->
+      <article class="menu-item" data-category="breakfast desserts" data-testid="menu-item-8">
+        <div class="menu-item-art menu-photo-4">
+          <span class="menu-photo-label">FROM THE PASS</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Midnight Pancake Stack</h3>
+            <strong>₹279</strong>
+          </div>
+          <p>“Maple syrup, salted butter, midnight cravings.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 10 -->
+      <article class="menu-item" data-category="breakfast small-plates" data-testid="menu-item-9">
+        <div class="menu-item-art menu-photo-5">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Avocado Sourdough Toast</h3>
+            <strong>₹299</strong>
+          </div>
+          <p>“Simple, fresh, unstoppable.”</p>
+          <span class="veg">● Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 11 -->
+      <article class="menu-item" data-category="burgers mains" data-testid="menu-item-10">
+        <div class="menu-item-art menu-photo-1">
+          <span class="menu-photo-label">NO SHARING REQUIRED</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Smash Burger</h3>
+            <strong>₹359</strong>
+          </div>
+          <p>“Double patty, melted cheddar, house sauce.”</p>
+          <span class="veg">● Non-Vegetarian</span>
+        </div>
+      </article>
+
+      <!-- Item 12 -->
+      <article class="menu-item" data-category="pizza mains" data-testid="menu-item-11">
+        <div class="menu-item-art menu-photo-0">
+          <span class="menu-photo-label">FROM THE PASS</span>
+        </div>
+        <div>
+          <div class="dish-meta">
+            <h3>Smokey Pepperoni & Honey</h3>
+            <strong>₹419</strong>
+          </div>
+          <p>“Sweet, spicy, irresistible.”</p>
+          <span class="veg">● Non-Vegetarian</span>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <site-footer></site-footer>
+
+</body>
+</html>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>After Hours | Lucknow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="components.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <site-header></site-header>
+
+  <!-- Hero Section -->
+  <section class="hero noticeboard-hero">
+    <div class="hero-photo">
+      <img src="assets/hero.jpg" alt="After Hours Restaurant Vibes">
+      <span class="scribble hero-note">You coming?</span>
+      <span class="receipt-sticker">TABLE<br><b>07</b></span>
+      <span class="hero-tape">DON'T LEAVE<br>BEFORE DESSERT</span>
+    </div>
+
+    <div class="hero-copy">
+      <p class="eyebrow hero-eyebrow yellow">AFTER HOURS / LUCKNOW</p>
+      <h1>This is the<br><em>place.</em></h1>
+      <p class="hero-sub">Pizza · coffee · conversations<br>and a very flexible definition of “one more”.</p>
+
+      <div class="hero-actions">
+        <a href="menu.html" class="button button-red">
+          See what's cooking
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"></path>
+            <path d="M7 7h10v10"></path>
+          </svg>
+        </a>
+        <a href="book.html" class="button button-outline">
+          Find a table
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"></path>
+            <path d="M7 7h10v10"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="receipt-line">
+        GOOD FOOD<br>BAD PLANS<br><b>GREAT COMPANY</b>
+      </div>
+    </div>
+
+    <div class="hero-scroll">
+      COME IN <span>↓</span> SIT DOWN <span>↓</span> STAY A WHILE
+    </div>
+  </section>
+
+  <!-- Cream Section: The Place -->
+  <section class="cream-section place-now">
+    <div class="physical-heading">
+      <span class="table-number">02</span>
+      <div class="section-title">
+        <p class="eyebrow">NO CEREMONY</p>
+        <h2>Come hungry.<br><em>Leave eventually.</em></h2>
+      </div>
+      <div class="sticker-tag">NO OUTSIDE<br>DRAMA</div>
+    </div>
+
+    <div class="place-strip">
+      <div class="place-strip-photo">
+        <img src="assets/place_counter.jpg" alt="Café interior counter with pendant lamps and chairs">
+      </div>
+      <div class="place-strip-card">
+        <p>We made a place for long coffees, unfinished conversations, birthdays, first dates and the occasional
+          decision we probably shouldn’t have made.</p>
+        <a href="the-place.html" class="place-card-link">
+          FIND YOUR SPOT
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 17L17 7"></path>
+            <path d="M7 7h10v10"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dark Section: Pick a Spot -->
+  <section class="dark-section pick-spot">
+    <div class="section-title light">
+      <p class="eyebrow yellow">PICK YOUR SPOT</p>
+      <h2>Where are we sitting?</h2>
+    </div>
+
+    <div class="mood-grid">
+      <div class="mood mood-0" style="--spot-bg: url('assets/spot_main.png');">
+        <div class="mood-bg"></div>
+        <div class="mood-overlay"></div>
+        <div class="mood-content">
+          <span class="spot-mark">01</span>
+          <h3>The Main Floor</h3>
+          <p>Right in the middle of it all. Good for groups and people-watching.</p>
+          <a href="book.html" class="text-link">Claim a table <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg></a>
+        </div>
+      </div>
+      <div class="mood mood-1" style="--spot-bg: url('assets/spot_corner.png');">
+        <div class="mood-bg"></div>
+        <div class="mood-overlay"></div>
+        <div class="mood-content">
+          <span class="spot-mark">02</span>
+          <h3>The Corner</h3>
+          <p>Quiet enough to talk, loud enough to not be awkward. First date territory.</p>
+          <a href="book.html" class="text-link">Claim a table <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg></a>
+        </div>
+      </div>
+      <div class="mood mood-2" style="--spot-bg: url('assets/spot_bar.png');">
+        <div class="mood-bg"></div>
+        <div class="mood-overlay"></div>
+        <div class="mood-content">
+          <span class="spot-mark">03</span>
+          <h3>The Bar</h3>
+          <p>Just you, a drink, and maybe some fries. No reservations required.</p>
+          <a href="the-place.html" class="text-link">See the space <svg xmlns="http://www.w3.org/2000/svg" width="16"
+              height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M5 12h14"></path>
+              <path d="M12 5l7 7-7 7"></path>
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cream Section: Menu Feature -->
+  <section class="cream-section menu-feature">
+    <div class="menu-intro-row">
+      <div class="menu-intro">
+        <p class="eyebrow">FROM THE PASS</p>
+        <h2>Things we're<br><em>not sharing.</em></h2>
+      </div>
+      <div class="receipt-note-paper">
+        <p>2 × Cold Brew</p>
+        <p>1 × Fries</p>
+        <p>1 × Bad Decision</p>
+        <div class="receipt-note-total">TOTAL ₹847</div>
+      </div>
+    </div>
+
+    <div class="dish-grid">
+      <!-- Item 1 -->
+      <a href="menu.html" class="dish dish-0" data-testid="featured-dish-0">
+        <div class="dish-photo">
+          <span class="dish-num">01</span>
+          <img src="assets/dish1.jpg" alt="Midnight Margherita" class="grayscale">
+        </div>
+        <div class="dish-info">
+          <div class="dish-meta">
+            <h3>MIDNIGHT MARGHERITA</h3>
+            <strong>₹349</strong>
+          </div>
+          <p>“Because plans change after 10 PM.”</p>
+          <span class="dish-arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- Item 2 -->
+      <a href="menu.html" class="dish dish-1" data-testid="featured-dish-1">
+        <div class="dish-photo">
+          <span class="dish-num">02</span>
+          <img src="assets/dish2.jpg" alt="The Group Project" class="grayscale">
+        </div>
+        <div class="dish-info">
+          <div class="dish-meta">
+            <h3>THE GROUP PROJECT</h3>
+            <strong>₹249</strong>
+          </div>
+          <p>“Loaded fries designed to disappear.”</p>
+          <span class="dish-arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- Item 3 -->
+      <a href="menu.html" class="dish dish-2" data-testid="featured-dish-2">
+        <div class="dish-photo">
+          <span class="dish-num">03</span>
+          <img src="assets/dish3.jpg" alt="I'm Not Hungry">
+        </div>
+        <div class="dish-info">
+          <div class="dish-meta">
+            <h3>I'M NOT HUNGRY</h3>
+            <strong>₹299</strong>
+          </div>
+          <p>“You're hungry. Sliders for the table.”</p>
+          <span class="dish-arrow">↗</span>
+        </div>
+      </a>
+
+      <!-- Item 4 -->
+      <a href="menu.html" class="dish dish-3" data-testid="featured-dish-3">
+        <div class="dish-photo">
+          <span class="dish-num">04</span>
+          <img src="assets/dish4.jpg" alt="One More Round">
+        </div>
+        <div class="dish-info">
+          <div class="dish-meta">
+            <h3>ONE MORE ROUND</h3>
+            <strong>₹199</strong>
+          </div>
+          <p>“Cold brew, vanilla, and very bad timing.”</p>
+          <span class="dish-arrow">↗</span>
+        </div>
+      </a>
+    </div>
+
+    <a href="menu.html" class="underlined-link" data-testid="full-menu-link">
+      SEE WHAT’S COOKING
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 17L17 7"></path>
+        <path d="M7 7h10v10"></path>
+      </svg>
+    </a>
+  </section>
+
+  <!-- Dark Section: Table Story -->
+  <section class="dark-section table-story">
+    <div class="table-copy">
+      <p class="eyebrow yellow">THE TABLE</p>
+      <h2>Everything happens<br><em>at the table.</em></h2>
+      <p style="color: var(--text-muted-light); padding: 20px;">Whatever brings you here, there’s a seat for
+        you. The
+        first date, the
+        group project, the birthday, the “just
+        one coffee” that became three hours.</p>
+      <a href="the-place.html" class="button button-yellow" data-testid="table-place-button">Find your table <svg
+          xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 17L17 7"></path>
+          <path d="M7 7h10v10"></path>
+        </svg></a>
+    </div>
+    <div class="table-photo">
+      <img src="assets/table.jpg" alt="Friends sharing pizza and fries at a warm restaurant table">
+      <div class="table-labels">
+        <span>THE FIRST DATE</span>
+        <span>THE GROUP PROJECT</span>
+        <span>THE 3-HOUR CONVERSATION</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tonight Strip -->
+  <section class="tonight-strip">
+    <div>
+      <p class="eyebrow yellow">TONIGHT / NO PLANS REQUIRED</p>
+      <h2>We stop pretending<br><em>we’re going home.</em></h2>
+    </div>
+    <div class="tonight-list">
+      <span><b>8:00 PM</b> Live music</span>
+      <span><b>9:30 PM</b> Fries + mocktails</span>
+      <span><b>11:00 PM</b> One more round</span>
+    </div>
+    <a href="whats-on.html" class="button button-yellow" data-testid="tonight-events-button">What’s on <svg
+        xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M7 17L17 7"></path>
+        <path d="M7 7h10v10"></path>
+      </svg></a>
+  </section>
+
+  <!-- People Section (Wall of Fame) -->
+  <section class="people-section yellow-section">
+    <div class="people-copy">
+      <p class="eyebrow">THE WALL OF FAME</p>
+      <h2>People who<br><em>were here.</em></h2>
+      <p>Good stories have a way of sticking around. Add yours to the wall.</p>
+      <a href="contact.html" class="underlined-link" data-testid="share-story-link">
+        LEAVE A LITTLE NOTE
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 17L17 7"></path>
+          <path d="M7 7h10v10"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="notes-wall">
+      <div class="note note-red" data-testid="customer-story-riya">
+        <b>@RIYA</b>
+        <span>“Came for coffee.<br>Stayed for 4 hours.”</span>
+      </div>
+      <div class="note note-cream" data-testid="customer-story-rahul">
+        <b>@RAHUL</b>
+        <span>Birthday #23 🎂</span>
+      </div>
+      <div class="note note-green" data-testid="customer-story-ankit">
+        <b>@ANKIT</b>
+        <span>Failed the group project.</span>
+      </div>
+      <div class="note note-dark" data-testid="customer-story-megha">
+        <b>@MEGHA</b>
+        <span>First date 💗</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section: Still Here -->
+  <section class="cta-section dark-section">
+    <div class="cta-content">
+      <p class="eyebrow yellow">IT'S A SIGN</p>
+      <h2>Still here?<br><em>Good.</em></h2>
+      <a href="book.html" class="button button-yellow cta-button" data-testid="cta-make-plan-button">
+        MAKE A PLAN
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 17L17 7"></path>
+          <path d="M7 7h10v10"></path>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <site-footer></site-footer>
+
+</body>
+
+</html>

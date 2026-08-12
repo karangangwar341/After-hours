@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Midnight Vibes</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="components.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <site-header></site-header>
+
+  <!-- Header -->
+  <section class="contact-header">
+    <h4 class="section-title">GET IN TOUCH</h4>
+    <h1>Leave your mark.</h1>
+    <p>Good stories have a way of sticking around. Drop us a line or add yours to the Wall of Fame.</p>
+  </section>
+
+  <!-- Contact Form -->
+  <div class="container">
+    <form class="contact-form">
+      <div class="form-group">
+        <label for="name">Name / Handle</label>
+        <input type="text" id="name" class="form-control" placeholder="@yourhandle" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="contact-info">Email or Phone</label>
+        <input type="text" id="contact-info" class="form-control" placeholder="So we can reply" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message / Note</label>
+        <textarea id="message" class="form-control" placeholder="What's your story?" required></textarea>
+      </div>
+      
+      <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Send it</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <site-footer></site-footer>
+</body>
+</html>

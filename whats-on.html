@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tonight | After Hours</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="components.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <site-header></site-header>
+
+  <!-- Page Intro -->
+  <section class="page-intro">
+    <p class="eyebrow yellow">TONIGHT / NO PLANS REQUIRED</p>
+    <h1>Don't go home<br><em>just yet.</em></h1>
+  </section>
+
+  <main class="page-body">
+    <div class="tonight-board">
+      <div class="board-header">
+        <span>THIS WEEK AT AFTER HOURS</span>
+        <b>PINNED UP</b>
+      </div>
+      <div class="board-events">
+        
+        <!-- Event 1 -->
+        <article class="board-event" data-testid="event-card-0">
+          <span class="event-day">MON</span>
+          <div>
+            <h3>Board Game Night</h3>
+            <p>Games · Snacks · Mild betrayal</p>
+          </div>
+          <span class="event-time">8 PM</span>
+          <button class="text-link event-save" data-testid="event-save-0">
+            I’m in 
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+          </button>
+        </article>
+
+        <!-- Event 2 -->
+        <article class="board-event" data-testid="event-card-1">
+          <span class="event-day">WED</span>
+          <div>
+            <h3>Open Mic</h3>
+            <p>Stories · Songs · No judgement</p>
+          </div>
+          <span class="event-time">9:30 PM</span>
+          <button class="text-link event-save" data-testid="event-save-1">
+            I’m in 
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+          </button>
+        </article>
+
+        <!-- Event 3 -->
+        <article class="board-event" data-testid="event-card-2">
+          <span class="event-day">FRI</span>
+          <div>
+            <h3>After Dark</h3>
+            <p>Music · Mocktails · Late bites</p>
+          </div>
+          <span class="event-time">11 PM</span>
+          <button class="text-link event-save" data-testid="event-save-2">
+            I’m in 
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+          </button>
+        </article>
+        
+        <!-- Event 4 -->
+        <article class="board-event" data-testid="event-card-3">
+          <span class="event-day">SAT</span>
+          <div>
+            <h3>Live Acoustic</h3>
+            <p>Good tunes · Better company</p>
+          </div>
+          <span class="event-time">11 PM</span>
+          <button class="text-link event-save" data-testid="event-save-3">
+            I’m in 
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+          </button>
+        </article>
+        
+        <!-- Event 5 -->
+        <article class="board-event" data-testid="event-card-4">
+          <span class="event-day">SUN</span>
+          <div>
+            <h3>Lazy Brunch</h3>
+            <p>Coffee · Pancakes · No alarms</p>
+          </div>
+          <span class="event-time">11 PM</span>
+          <button class="text-link event-save" data-testid="event-save-4">
+            I’m in 
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+          </button>
+        </article>
+
+      </div>
+    </div>
+    
+    <div class="tonight-footnote">
+      <span class="sticker footnote-sticker">NO BOOKINGS<br>FOR BAD IDEAS</span>
+      <p class="scribble">Someone has to start the playlist.</p>
+      <a href="book.html" class="button button-red" data-testid="events-book-button">
+        Find a table 
+        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg>
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <site-footer></site-footer>
+
+</body>
+</html>
